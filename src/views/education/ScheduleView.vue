@@ -76,6 +76,7 @@
 import { getCourseList, getTeacherList, putCourse, addCourse, delCourse } from '@/api/class'
 import type { ICourse } from '@/typings/class'
 import { exportExcel } from '@/utils/utils'
+import {ElMessage} from "element-plus";
 
 const tableData = ref<ICourse[]>()
 const teacherList = ref()
